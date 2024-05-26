@@ -3,6 +3,8 @@ import Navbar from "@/components/global/shared/navbar";
 import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import { InfiniteMovingCardsDemo } from "@/components/global/infinite-moving-card";
+import { HeroParallaxDemo } from "@/components/global/hello-parallax";
+import { LampDemo } from "@/components/global/lamp";
 
 export default function Home() {
   return (
@@ -18,6 +20,10 @@ export default function Home() {
       </section>
       {/* Carousel */}
       <InfiniteMovingCardsDemo />
+      {/* Parallax */}
+      <HeroParallaxDemo />
+      {/* Lamp */}
+      <LampDemo />
     </main>
   );
 }
