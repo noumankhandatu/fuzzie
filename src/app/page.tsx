@@ -1,10 +1,9 @@
 import { HeroScrollDemo } from "@/components/global/container-scroll-animation";
 import Navbar from "@/components/global/shared/navbar";
-import Image from "next/image";
-import { Button } from "@/components/ui/button"
 import { InfiniteMovingCardsDemo } from "@/components/global/infinite-moving-card";
 import { HeroParallaxDemo } from "@/components/global/hello-parallax";
 import { LampDemo } from "@/components/global/lamp";
+import { ThreeDCardDemo } from "@/components/global/3d-card-effect";
 
 export default function Home() {
   return (
@@ -24,6 +23,8 @@ export default function Home() {
       <HeroParallaxDemo />
       {/* Lamp */}
       <LampDemo />
+      {/* Card */}
+      <ThreeDCardDemo />
     </main>
   );
 }
